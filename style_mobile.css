@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "LibreFranklin";
+    src: url('Libre_Franklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+}
+
+/*---------------GENERALITIES-----------------*/
+*
+{
+    font-family: "LibreFranklin";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+    text-align: center;
+}
+
+/*--------------------------------*/
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    min-height: 100vh;
+}
+section 
+{
+    width: 90%;
+}
+
+#logo
+{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    width: 4em;
+    font-weight: lighter;
+
+}
+
+h1
+{
+    padding: 1em;
+    color: grey;
+}
+em
+{
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+p
+{
+    padding-bottom: 2em;
+}
+
+#mail-pannel
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#email
+{
+    outline: none;
+    font-size: 1em;
+    color: black;
+    opacity: 0.7;
+    border: 1px hsla(223, 87%, 63%, 0.548) solid;
+    border-radius: 2em;
+    width: 90%;
+    padding: 1em;
+}
+#mail-error
+{
+    display: none;
+    color: hsl(354, 100%, 66%);
+    opacity: 0.9;
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 1em;
+}
+#email::placeholder
+{
+    color: hsl(223, 87%, 63%);
+    opacity: 0.7;
+}
+#notify-btn
+{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border-radius: 2em;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.356);
+    padding: 1em;
+    margin: 1em 0;
+    width: 90%;
+    
+}
+#notify-btn:hover
+{
+    background-color: hsl(223, 81%, 75%);
+    cursor: pointer;
+}
+#fb-logo, #twitter-logo, #instagram-logo
+{
+    width: 1.3em;
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 0 0.5em;
+}
+#fb-logo:hover, #twitter-logo:hover, #instagram-logo:hover
+{
+    cursor: pointer;
+    filter: invert(100%);
+    border: 1px grey solid;
+}
+#dashboard
+{
+    object-fit: cover;
+    width: 100%;
+}
+#copyright
+{
+    color: grey;
+    opacity: 0.7;
+    padding-top: 2.5em;
+    font-size: 0.8em;
+}
+footer
+{
+    position: absolute;
+    top:0px;
+    font-size: 0.7em;
+}

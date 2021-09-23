@@ -1,0 +1,67 @@
+@media all and (min-width: 900px)
+{  
+    #logo
+    {
+        width: 5em;
+        padding-bottom: 0em;
+        margin-top: 4em;
+    }
+    h1
+    {
+        font-size: 2.8em;
+        margin: 0;
+        padding: 0.4em;
+        
+    }
+    #subscribe-text
+    {
+        font-size: 1.5em;
+        padding-bottom: 0.8em;
+    }
+    #mail-pannel
+    {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+
+        grid-template-columns: 0.5fr 0.4fr;
+        grid-gap: 0px;
+ 
+        width: 60%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #email
+    {
+        grid-column: 1 / 2;
+        grid-row: 1;
+
+    }
+    #notify-btn
+    {        
+        grid-column: 2 / 3;
+        grid-row: 1;
+
+    }
+    #mail-error
+    {        
+        margin: 0;
+        padding: 0;
+        padding-left: 1em;
+        grid-column: 1 / 2;
+        grid-row: 2;
+        text-align: start;
+    }
+
+    #dashboard
+    {
+        width:50%;
+        padding: 0;
+        margin: 0;
+        /* padding-top: 3em; */
+    }
+    #copyright
+    {
+        padding-top: 1em;
+    }
+}
