@@ -15,11 +15,13 @@ body
 {
     height: auto;
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
-    justify-content: safe;
+    justify-content: center;
     align-items: center;
     text-align: center;
+
 }
 
 /*--------------------------------*/
@@ -33,7 +35,7 @@ main
     height: auto;
     min-height: 100vh;
 }
-section 
+#intro-pannel, #bottom-pannel
 {
     width: 90%;
 }
@@ -129,6 +131,8 @@ p
 {
     object-fit: cover;
     width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 #copyright
 {
@@ -137,7 +141,7 @@ p
     padding-top: 2.5em;
     font-size: 0.8em;
 }
-footer
+#attribution
 {
     position: absolute;
     top:0px;
